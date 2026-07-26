@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Reward Land Pro</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>💰 Reward Land Pro</h1>
+
+<p class="desc">
+Complete tasks and earn rewards
+</p>
+
+
+<div class="card">
+
+<h2>🎁 Daily Rewards</h2>
+
+<p>Claim your bonus today</p>
+
+<button onclick="claimReward()">
+Claim Reward
+</button>
+
+</div>
+
+
+<div class="card">
+
+<h2>💎 Earn Points</h2>
+
+<p>Complete offers below</p>
+
+
+<button onclick="openLink(0)">
+🔥 Task 1
+</button>
+
+
+<button onclick="openLink(1)">
+🔥 Task 2
+</button>
+
+
+<button onclick="openLink(2)">
+🔥 Task 3
+</button>
+
+
+</div>
+
+
+<div id="coin">
+💰 Coins: 0
+</div>
+
+
+</div>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
