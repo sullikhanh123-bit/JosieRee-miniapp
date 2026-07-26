@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Reward Land Pro</title>
+<title>Reward USD</title>
 
 <link rel="stylesheet" href="style.css">
 
@@ -12,64 +13,143 @@
 
 </head>
 
+
 <body>
+
 
 <div class="container">
 
-<h1>💰 Reward Land Pro</h1>
 
-<p class="desc">
-Complete tasks and earn rewards
+<h1>💵 Reward USD</h1>
+
+<p class="subtitle">
+Earn rewards by completing tasks
 </p>
 
 
+
+<div class="balance-box">
+
+<p>Your Balance</p>
+
+<h2 id="balance">
+$0.00
+</h2>
+
+</div>
+
+
+
 <div class="card">
 
-<h2>🎁 Daily Rewards</h2>
+<h3>🎁 Daily Bonus</h3>
 
-<p>Claim your bonus today</p>
+<p>
+Claim your daily reward
+</p>
 
-<button onclick="claimReward()">
-Claim Reward
+
+<button onclick="dailyBonus()">
+Claim +$0.05
 </button>
 
+
 </div>
+
+
 
 
 <div class="card">
 
-<h2>💎 Earn Points</h2>
 
-<p>Complete offers below</p>
+<h3>💰 Earn Money</h3>
 
 
-<button onclick="openLink(0)">
-🔥 Task 1
+<div class="task">
+
+<h4>🔥 Task 1</h4>
+
+<p>
+Visit Offer
+<br>
+Reward: +$0.01
+</p>
+
+<button onclick="completeTask(0)">
+START
 </button>
 
+</div>
 
-<button onclick="openLink(1)">
-🔥 Task 2
+
+
+
+<div class="task">
+
+<h4>🔥 Task 2</h4>
+
+<p>
+Special Offer
+<br>
+Reward: +$0.02
+</p>
+
+<button onclick="completeTask(1)">
+START
 </button>
 
+</div>
 
-<button onclick="openLink(2)">
-🔥 Task 3
+
+
+
+
+<div class="task">
+
+<h4>🔥 Task 3</h4>
+
+<p>
+Premium Offer
+<br>
+Reward: +$0.03
+</p>
+
+<button onclick="completeTask(2)">
+START
 </button>
+
+</div>
 
 
 </div>
 
 
-<div id="coin">
-💰 Coins: 0
+
+
+
+<div class="card withdraw">
+
+<h3>💸 Withdraw</h3>
+
+<p>
+Minimum withdrawal: $5.00
+</p>
+
+
+<button disabled>
+Request Withdrawal
+</button>
+
+
 </div>
+
 
 
 </div>
 
 
 <script src="app.js"></script>
+
 
 </body>
 </html>
